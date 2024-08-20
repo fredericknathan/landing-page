@@ -14,20 +14,20 @@ export default function Hero() {
   return (
     <HeroWrapper>
       <Contents>
-        {/* <CustomOverTitle>data annotation</CustomOverTitle> */}
+        <Heading> </Heading>
         <Heading>Siamese Labs</Heading>
         <Description>
         High-quality data annotation services expedite AI project timelines. Achieve faster market entry with precise, reliable and secure data.
         </Description>
         <CustomButtonGroup>
           <Button onClick={() => setIsModalOpened(true)}>
-            Subscribe to the newsletter <span>&rarr;</span>
+            contact us <span>&rarr;</span>
           </Button>
-          <NextLink href="#whitepaper" passHref>
+          {/* <NextLink href="#whitepaper" passHref>
             <Button transparent>
               Features <span>&rarr;</span>
             </Button>
-          </NextLink>
+          </NextLink> */}
         </CustomButtonGroup>
       </Contents>
       <ImageContainer>

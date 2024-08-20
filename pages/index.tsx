@@ -27,7 +27,7 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
         <WhiteBackgroundContainer>
           <Hero />
           <Partners />
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
+          {/* <BasicSection imageUrl="/demo-illustration-1.svg" title="Lorem ipsum dolor sit amet consectetur." overTitle="sit amet gogo">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore
               voluptate quo deleniti animi laboriosam.{' '}
@@ -35,17 +35,21 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
               consectetur adipisicing elit. Soluta repellendus quia quos obcaecati nihil. Laudantium non accusantium, voluptate eum nesciunt
               at suscipit quis est soluta?
             </p>
-          </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Lorem ipsum dolor sit." overTitle="lorem ipsum" reversed>
+          </BasicSection> */}
+          <BasicSection imageUrl="/demo-illustration-1.svg" title="Transparency Foregrounded">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, quidem error incidunt a doloremque voluptatem porro inventore{' '}
-              <strong>voluptate quo deleniti animi laboriosam</strong>. Possimus ullam velit rem itaque consectetur, in distinctio?
+            We uphold the highest standards of transparency in all business operations. Clients can expect full disclosure regarding data handling protocols, robust security measures, transparent pricing structures, and clearly defined project timelines. Our commitment to openness fosters trust and ensures complete client satisfaction.
             </p>
-            <ul>
+          </BasicSection>
+          <BasicSection imageUrl="/demo-illustration-2.svg" title="Quality Data, Exceptional Results" reversed>
+            <p>
+            Experience the difference high-quality data makes. By combining human expertise with advanced quality control measures, we ensure exceptional accuracy and precision in every dataset. Our rigorous annotation process, including meticulous labeling and thorough rechecking, provides the foundation for robust AI models that drive optimal performance.
+            </p>
+            {/* <ul>
               <li>Professional point 1</li>
               <li>Professional remark 2</li>
               <li>Professional feature 3</li>
-            </ul>
+            </ul> */}
           </BasicSection>
         </WhiteBackgroundContainer>
         <DarkerBackgroundContainer>

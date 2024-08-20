@@ -36,14 +36,14 @@ export default function Homepage({ posts }: InferGetStaticPropsType<typeof getSt
               at suscipit quis est soluta?
             </p>
           </BasicSection> */}
-          <BasicSection imageUrl="/demo-illustration-1.svg" title="Transparency Foregrounded">
+          <BasicSection imageUrl="/demo-illustration-1.svg" title="Transparency Foregrounded" overTitle="">
             <p>
             We uphold the highest standards of transparency in all business operations. Clients can expect full disclosure regarding data handling protocols, robust security measures, transparent pricing structures, and clearly defined project timelines. Our commitment to openness fosters trust and ensures complete client satisfaction.
             </p>
           </BasicSection>
-          <BasicSection imageUrl="/demo-illustration-2.svg" title="Quality Data, Exceptional Results" reversed>
+          <BasicSection imageUrl="/demo-illustration-2.svg" title="Quality Data, Exceptional Results" overTitle="" reversed>
             <p>
-            Experience the difference high-quality data makes. By combining human expertise with advanced quality control measures, we ensure exceptional accuracy and precision in every dataset. Our rigorous annotation process, including meticulous labeling and thorough rechecking, provides the foundation for robust AI models that drive optimal performance.
+            Experience the difference high-quality data makes. By combining human expertise with advanced quality control measures, we ensure exceptional accuracy and precision in every dataset. Our rigorous annotation process, including meticulous labeling and thorough rechecking, provides the foundation for robust AI models that drive optimal performance.
             </p>
             {/* <ul>
               <li>Professional point 1</li>

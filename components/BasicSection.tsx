@@ -13,14 +13,15 @@ export interface BasicSectionProps {
   reversed?: boolean;
 }
 
-export default function BasicSection({ imageUrl, title, overTitle, reversed, children }: PropsWithChildren<BasicSectionProps>) {
+// export default function BasicSection({ imageUrl, title, overTitle, reversed, children }: PropsWithChildren<BasicSectionProps>) {
+export default function BasicSection({ imageUrl, title, reversed, children }: PropsWithChildren<BasicSectionProps>) {
   return (
     <BasicSectionWrapper reversed={reversed}>
       <ImageContainer>
         <NextImage src={imageUrl} alt={title} layout="fill" objectFit="cover" />
       </ImageContainer>
       <ContentContainer>
-        <CustomOverTitle>{overTitle}</CustomOverTitle>
+        {/* <CustomOverTitle>{overTitle}</CustomOverTitle> */}
         <Title>{title}</Title>
         <RichText>{children}</RichText>
       </ContentContainer>
